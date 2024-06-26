@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian State Colleges Name</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    input,
+    button {
+        padding: 1rem;
+    }
+
+    .list-item {
+        background: rgba(243, 182, 192, 0.562);
+        width: 100%;
+        height: 80vh;
+        overflow: scroll;
+    }
+</style>
+
+<body>
+    <!-- =============== axios link ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+    <!-- =============== Html work start================= -->
+
+    <h1 style="color:blue">Indian State colleges</h1>
+    <input type="text" placeholder="search for colleges">
+    <button id="btn" style="background-color: rgb(243, 116, 20); color: black; cursor: pointer;">search</button>
+    <div class="list-item">
+        <ul id="Item"></ul>
+    </div>
+
+    <!-- =============== javaScript link ================= -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
